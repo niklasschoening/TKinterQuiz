@@ -22,7 +22,7 @@ class QuizSpiel:
 
         self.frage_label = tk.Label(root, text="", width=50)
         self.frage_label.pack(pady=10)
-
+        self.bild = tk.Image.open("falko.png")
         self.optionen_buttons = []
         for i in range(4):
             button = tk.Button(root, text="", width=30,
